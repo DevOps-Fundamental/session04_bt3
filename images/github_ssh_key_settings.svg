@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 500" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="940" height="500" fill="rgb(15, 23, 42)" rx="10" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+  <!-- Top bar -->
+  <rect width="940" height="42" fill="rgb(30, 41, 59)" rx="10"/>
+  <rect y="32" width="940" height="10" fill="rgb(30, 41, 59)"/>
+  <circle cx="22" cy="21" r="6" fill="#ef4444"/>
+  <circle cx="40" cy="21" r="6" fill="#f59e0b"/>
+  <circle cx="58" cy="21" r="6" fill="#22c55e"/>
+  <text x="320" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">
+    GitHub &gt; Settings &gt; SSH and GPG keys
+  </text>
+
+  <!-- Content Box -->
+  <g transform="translate(40, 70)">
+    <rect width="860" height="390" rx="10" fill="rgba(30, 41, 59, 0.7)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+    <!-- Section Header -->
+    <text x="30" y="42" fill="#ffffff" font-family="'Inter', sans-serif" font-size="18" font-weight="700">SSH keys</text>
+    <text x="30" y="65" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="12">This is a list of SSH keys associated with your account.</text>
+
+    <!-- Key Card -->
+    <g transform="translate(30, 95)">
+      <rect width="800" height="140" rx="8" fill="rgba(15, 23, 42, 0.7)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+      <!-- Key Icon -->
+      <circle cx="45" cy="45" r="20" fill="rgba(34, 197, 94, 0.15)"/>
+      <path d="M40 45a5 5 0 1 1 10 0 5 5 0 0 1-10 0zm8 0h12v4h-4v4h-4v-8z" fill="#22c55e" transform="translate(-5, -6)"/>
+
+      <!-- Key Title -->
+      <text x="80" y="40" fill="#ffffff" font-family="'Inter', sans-serif" font-size="15" font-weight="600">ptit-devops-ed25519</text>
+
+      <!-- Key fingerprint -->
+      <text x="80" y="66" fill="#cbd5e1" font-family="'Consolas', monospace" font-size="12">SHA256:7mP0xQ1vR8nLk3tY9uF2eA6sD4bJ5cK7wZ8aBcDeFgH</text>
+
+      <!-- Badges -->
+      <rect x="80" y="85" width="130" height="24" rx="12" fill="rgba(34, 197, 94, 0.15)" stroke="rgba(34, 197, 94, 0.4)" stroke-width="1"/>
+      <circle cx="94" cy="97" r="3.5" fill="#22c55e"/>
+      <text x="105" y="101" fill="#22c55e" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Authentication key</text>
+
+      <rect x="220" y="85" width="80" height="24" rx="12" fill="rgba(56, 189, 248, 0.15)"/>
+      <text x="234" y="101" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="11">ed25519</text>
+
+      <text x="315" y="101" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="11">Added on Oct 5, 2026</text>
+    </g>
+
+    <!-- Remote repo info -->
+    <g transform="translate(30, 260)">
+      <rect width="800" height="95" rx="8" fill="rgba(15, 23, 42, 0.7)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+      <text x="25" y="32" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="12">Repository Remote URL (SSH):</text>
+      <text x="25" y="60" fill="#38bdf8" font-family="'Consolas', monospace" font-size="13" font-weight="600">git@github.com:nguyenvana-ptit/ptit-devops-project.git</text>
+      <circle cx="750" cy="50" r="5" fill="#22c55e"/>
+      <text x="735" y="70" text-anchor="middle" fill="#22c55e" font-family="'Inter', sans-serif" font-size="11">Connected</text>
+    </g>
+  </g>
+</svg>
